@@ -1,6 +1,9 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import { createBrowserRouter,RouterProvider } from "react-router-dom"
 import Login from "./Login";
 import Browser from "./Browser";
+
+
 
 const router = createBrowserRouter([
   {
@@ -14,9 +17,9 @@ const router = createBrowserRouter([
 ]);
 
 const Body = () => {
-  return (
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default Body;
+
+
